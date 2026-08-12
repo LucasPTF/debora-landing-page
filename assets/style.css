@@ -783,4 +783,4 @@ button,a{touch-action:manipulation}
 
 
 /* Keep the new portrait framed around the face in the hero section */
-.elementor-element-545ef701 img{object-position:center 32%}
+.elementor-element-545ef701 img{width:100%;max-width:none;object-fit:cover;object-position:center 30%}
