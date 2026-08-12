@@ -780,3 +780,7 @@ button,a{touch-action:manipulation}
 
 /* Center the compact guarantee content without affecting the surrounding sections */
 @media(min-width:768px){.elementor-element-4f8ee82c{grid-template-columns:auto auto;justify-content:center}}
+
+
+/* Keep the new portrait framed around the face in the hero section */
+.elementor-element-545ef701 img{object-position:center 32%}
