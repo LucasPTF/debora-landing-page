@@ -769,12 +769,12 @@ button,a{touch-action:manipulation}
 .elementor-element-48b4c0bd{width:100%}
 .elementor-element-48b4c0bd{display:none !important;}
 /* Client-requested brand and portrait refinements */
-.brand-logo-frame{width:168px;height:78px;margin:0 0 24px;overflow:hidden;position:relative;border-radius:14px;background:transparent;box-shadow:none;border:0}
-.brand-logo-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transform:scale(2.1);transform-origin:center}
+.brand-logo-frame{width:176px;height:176px;margin:0 0 24px;overflow:hidden;position:relative;background:transparent;border:0}
+.brand-logo-frame img{display:block;width:100%;height:100%;object-fit:contain}
 .elementor-element-6ad42544 .dlpveyj9{width:100%!important;max-width:none!important;object-position:center 30%}
-.footer-brand-frame{width:112px!important;height:76px;overflow:hidden;position:relative;margin-bottom:14px!important;border-radius:10px;background:transparent}
-.footer-brand-frame .fwe9o9yy{position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none!important;object-fit:contain;transform:scale(2.1);transform-origin:center}
-@media(max-width:767px){.brand-logo-frame{width:148px;height:68px;margin-bottom:22px}.footer-brand-frame{width:104px!important;height:70px}}
+.footer-brand-frame{width:138px!important;height:138px;overflow:hidden;position:relative;margin-bottom:14px!important;background:transparent}
+.footer-brand-frame .fwe9o9yy{display:block;width:100%!important;height:100%!important;max-width:none!important;object-fit:contain}
+@media(max-width:767px){.brand-logo-frame{width:146px;height:146px;margin-bottom:22px}.footer-brand-frame{width:124px!important;height:124px}}
 
 
 
@@ -783,4 +783,4 @@ button,a{touch-action:manipulation}
 
 
 /* Keep the new portrait framed around the face in the hero section */
-.elementor-element-545ef701 img{width:100%;max-width:none;object-fit:cover;object-position:center 30%}
+.elementor-element-545ef701 img{width:100%;max-width:none;object-fit:cover;object-position:center center}
